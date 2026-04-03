@@ -1,0 +1,226 @@
+# Project definitions (do not edit)
+Task: FullBodyTracking
+scorer: Arya
+date: Nov17
+multianimalproject: false
+identity:
+
+
+# Project path (change when moving around)
+project_path: /storage/scratch1/8/analavade3/FullBodyTracking-Arya-2025-11-17
+
+# Default DeepLabCut engine to use for shuffle creation (either pytorch or tensorflow)
+engine: pytorch
+
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /Users/aryan/Desktop/NajafiLab/SA09_20251013_Joystick_CG_DB_cam0_run000_20251013_093320.avi:
+    crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250806_Joystick_SB_VG_cam0_run000_20250806_163146.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250822_Joystick_VG_DB_cam0_run001_20250822_155527.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250827_Joystick_VG_DB_cam0_run000_20250827_172617.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250821_Joystick_VG_DB_cam0_run000_20250821_162847.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250822_Joystick_VG_DB_cam0_run000_20250822_155527.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250807_Joystick_VG_SB_cam0_run000_20250807_165539.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20251002_Joystick_VG_DB_cam0_run000_20251002_170956.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250818_Joystick_VG_DB_cam0_run002_20250815_170942.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20251007_Joystick_VG_DB_cam0_run001_20251006_171405.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250815_Joystick_VG_DB_cam0_run000_20250815_170942.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20251003_Joystick_VG_DB_cam0_run000_20251003_163519.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250811_Joystick_VG_SB_cam0_run000_20250811_160349.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20251008_Joystick_VG_DB_cam0_run001_20251007_175345.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250813_Joystick_VG_DB_cam0_run000_20250813_145518.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250808_Joystick_VG_SB_cam0_run003_20250807_165539.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250915_Joystick_VG_DB_cam0_run004_20250911_170523.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250814_Joystick_VG_DB_cam0_run000_20250814_172622.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250825_Joystick_VG_DB_cam0_run000_20250825_094305.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20251001_Joystick_VG_DB_cam0_run002_20251001_162237.avi
+  : crop: 0, 800, 0, 800
+  /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250911_VG_DB_cam0_run001_20250911_170523.avi:
+    crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20251006_Joystick_VG_DB_cam0_run000_20251006_171405.avi
+  : crop: 0, 800, 0, 800
+  ? /Users/aryan/Desktop/NajafiLab/FullBodyTracking-Arya-2025-11-17/videos/SA09_20250820_Joystick_VG_DB_cam0_run000_20250820_142053.avi
+  : crop: 0, 800, 0, 800
+bodyparts:
+- nose_tip
+- tongue
+- right_forelimb
+- left_forelimb
+- hindlimb
+- whisker_L_root
+- whisker_L_tip
+- whisker_R_root
+- whisker_R_tip
+- pupilLeft
+- pupilTopLeft1
+- pupilTopLeft2
+- pupilTop
+- pupilTopRight1
+- pupilTopRight2
+- pupilRight
+- pupilBottomRight1
+- pupilBottomRight2
+- pupilBottom
+- pupilBottomLeft1
+- pupilBottomLeft2
+- EyeLeft
+- EyeTopLeft1
+- EyeTopleft2
+- EyeTop
+- EyeTopRight1
+- EyeTopRight2
+- EyeRight
+- EyeBottomRight1
+- EyeBottomRight2
+- EyeBottom
+- EyeBottomLeft1
+- EyeBottomLeft2
+- Center
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+
+# Plotting configuration
+skeleton:
+- - nose_tip
+  - whisker_L_root
+- - whisker_L_root
+  - whisker_L_tip
+- - nose_tip
+  - whisker_R_root
+- - whisker_R_root
+  - whisker_R_tip
+
+# Pupil Connections (forms a closed loop)
+- - pupilLeft
+  - pupilTopLeft1
+- - pupilTopLeft1
+  - pupilTopLeft2
+- - pupilTopLeft2
+  - pupilTop
+- - pupilTop
+  - pupilTopRight1
+- - pupilTopRight1
+  - pupilTopRight2
+- - pupilTopRight2
+  - pupilRight
+- - pupilRight
+  - pupilBottomRight1
+- - pupilBottomRight1
+  - pupilBottomRight2
+- - pupilBottomRight2
+  - pupilBottom
+- - pupilBottom
+  - pupilBottomLeft1
+- - pupilBottomLeft1
+  - pupilBottomLeft2
+- - pupilBottomLeft2
+  - pupilLeft
+
+# Eye Connections (forms a closed loop)
+- - EyeLeft
+  - EyeTopLeft1
+- - EyeTopLeft1
+  - EyeTopleft2
+- - EyeTopleft2
+  - EyeTop
+- - EyeTop
+  - EyeTopRight1
+- - EyeTopRight1
+  - EyeTopRight2
+- - EyeTopRight2
+  - EyeRight
+- - EyeRight
+  - EyeBottomRight1
+- - EyeBottomRight1
+  - EyeBottomRight2
+- - EyeBottomRight2
+  - EyeBottom
+- - EyeBottom
+  - EyeBottomLeft1
+- - EyeBottomLeft1
+  - EyeBottomLeft2
+- - EyeBottomLeft2
+  - EyeLeft
+
+# Center Connections (spokes)
+- - Center
+  - pupilTop
+- - Center
+  - pupilBottom
+- - Center
+  - pupilLeft
+- - Center
+  - pupilRight
+- - Center
+  - EyeTop
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+detector_snapshotindex: -1
+batch_size: 32
+detector_batch_size: 1
+
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+
+
+# Conversion tables to fine-tune SuperAnimal weights
+SuperAnimalConversionTables:
